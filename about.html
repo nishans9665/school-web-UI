@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Us — Greenfield School</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"
+          ><img src="assets/logo.png" alt="Greenfield School logo"
+        /></a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="academics.html">Academics</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="about-intro">
+        <!-- <img src="assets/school.jpg" alt="School building"> -->
+        <h1>About Greenfield School</h1>
+        <p>
+          Founded in 1995, Greenfield School has been providing high-quality
+          <br />education to students from foundation to grade 12.
+        </p>
+      </section>
+
+      <section class="mission">
+        <h2>Our Mission</h2>
+        <p>
+          To nurture responsible citizens and lifelong learners through a
+          <br />balanced curriculum and caring community.
+        </p>
+      </section>
+
+      <section class="staff-grid">
+        <h2>Leadership</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="assets/Bubly.jpg" alt="Principal" />
+            <h3>Principal</h3>
+            <p>Dr. Bubly Minu</p>
+          </div>
+          <div class="card">
+            <img src="assets/Monayem.jpg" alt="Vice Principal" />
+            <h3>Vice Principal</h3>
+            <p>Monayem Pruda</p>
+          </div>
+          <div class="card">
+            <img src="assets/Nuri.jpg" alt="Head of Academics" />
+            <h3>Head of Academics</h3>
+            <p>Professon. Nuri Paul</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Greenfield School. All rights reserved.
+        </p>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
