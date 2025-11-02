@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Academics — Greenfield School</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html"><img src="assets/logo.png" alt="Greenfield School logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html" class="active">Academics</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container academics-page">
+    <h1>Academics at Greenfield School</h1>
+    <p>We provide a comprehensive and balanced curriculum that equips our students with the knowledge, skills, and
+      values they need to succeed in life. Our academic programs encourage creativity, critical thinking, and
+      collaboration.</p>
+
+
+    <section class="curriculum">
+      <h2>Curriculum Overview</h2>
+      <table class="curriculum-table">
+        <thead>
+          <tr>
+            <th>Level</th>
+            <th>Subjects Offered</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Primary (Grades 1–5)</td>
+            <td>English, Math, Science, Arts, Physical Education</td>
+          </tr>
+          <tr>
+            <td>Middle (Grades 6–9)</td>
+            <td>English, Math, Science, Social Studies, IT, Arts, PE</td>
+          </tr>
+          <tr>
+            <td>Secondary (Grades 10–12)</td>
+            <td>Advanced Math, Physics, Chemistry, Biology, Business, Literature, ICT</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section class="subject-grid">
+      <h2>Key Academic Areas</h2>
+      <div class="grid">
+        <div class="subject-card">
+          <h3>Science</h3>
+          <p>Hands-on experiments and lab work encourage discovery and innovation.</p>
+        </div>
+        <div class="subject-card">
+          <h3>Technology</h3>
+          <p>From coding to robotics, we prepare students for the digital future.</p>
+        </div>
+        <div class="subject-card">
+          <h3>Arts</h3>
+          <p>Music, drama, and fine arts nurture creativity and expression.</p>
+        </div>
+        <div class="subject-card">
+          <h3>Sports</h3>
+          <p>A wide range of sports ensures fitness, teamwork, and leadership skills.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="extracurricular">
+      <h2>Extracurricular Programs</h2>
+      <p>Beyond the classroom, our students participate in clubs and activities that enrich their learning journey and
+        personal growth.</p>
+      <ul>
+        <li>Debating Society</li>
+        <li>Science & Robotics Club</li>
+        <li>Drama and Music Club</li>
+        <li>Sports Teams & Athletics</li>
+      </ul>
+    </section>
+  </main>
+  
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Greenfield School. All rights reserved.
+        </p>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
